@@ -14,3 +14,13 @@ export default {
   }
 }
 </script>
+
+<style media="screen">
+  * {
+    margin:0px;
+    padding:0px;
+  }
+  body {
+    background: black;
+  }
+</style>

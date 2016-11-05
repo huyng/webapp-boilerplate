@@ -10,7 +10,7 @@ from flask import send_from_directory
 
 app = Flask(__name__,
             static_folder="ui/dist",
-            static_url_path="/static")
+            static_url_path="/dist")
 
 
 @app.route("/")
